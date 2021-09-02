@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    
+}
+.my-info{
+    background: linear-gradient(12deg, rgb(125, 226, 204) 0%, rgb(238, 208, 74) 100%);
+    position: fixed;
+    width: 369px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+
+.tools{
+    position: fixed;
+    width: 45px;
+    height: 800px;
+    left: 369px;
+    top: 0px;
+    background-color: rgb(92, 197, 188);
+}
+.icon1{
+    position: absolute;
+    width: 45px;
+    height: auto;
+    top: 34px;
+    left: 3px;
+    
+}
+.icon1 img{
+     width: 35px;
+     height: auto;
+}
+.icon2{
+    position: absolute;
+    width: 45px;
+    height: auto;
+    top: 100px;
+    left: 7px; 
+}
+.icon2 img{
+     width: 27px;
+     height: auto;
+}
+
+.myphoto{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+    top: 50px;
+    left: 134px;
+}
+
+.myphoto img{
+    width:auto;
+    height:100%;
+}
+.myname{
+    position: relative;
+    text-align:center;
+    top: 100px;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 2;
+}
+.myname p{
+    font-size: 16px;
+}
+.contactme{
+    position: relative;
+    text-align:center;
+    top: 180px;
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.contactme p{
+    font-size: 18px;
+}
+/*此处开始是右半边*/
+.project1{
+   display:inline-block;
+   position: absolute;
+   width: 490px;
+   height: 490px;
+   left: 470px;
+   top: 36px;
+   overflow: hidden;
+  
+}
+.project1 img{
+    width: auto;
+    height: 100%;
+    margin-left:-25%;
+    cursor: pointer;
+    transition: all 0.6s;
+    
+}
+.project1 img:hover{
+    transform: scale(1.2);
+}
+.projectname1{
+    position: absolute;
+    top: 310px;
+    left:0px;
+    text-align:center;
+    padding-top: 45px;
+    width: 490px;
+    height: 250px;
+    padding-bottom: 15px;
+    overflow: hidden;/*下三条为了隐藏文字*/
+    cursor: pointer;
+    transition: all 0.6s;
+    background-image: linear-gradient(to top, rgb(73, 151, 147) , transparent);
+    font: 400 24px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.projectname1 p{
+    font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.project1 .projectname1:hover{
+    transform:translateY(-70px)
+}
+
+.project2{
+    display:inline-block;
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    left: 470px;
+    top: 548px;
+    overflow: hidden;
+ }
+ .project2 img{
+     width: auto;
+     height: 100%;
+     margin-left:-25%;
+     cursor: pointer;
+     transition: all 0.6s;
+ }
+ .project2 img:hover{
+     transform: scale(1.2);
+ }
+ .projectname2{
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    padding-top: 45px;
+    text-align:center;
+    width: 490px;
+    height: 250px;
+    padding-bottom: 15px;
+    overflow: hidden;/*下三条为了隐藏文字*/
+    cursor: pointer;
+    transition: all 0.6s;
+    background-image: linear-gradient(to top, rgb(62, 163, 170) , transparent);
+    font: 400 24px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.projectname2 p{
+    font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.project2 .projectname2:hover{
+    transform:translateY(-70px)
+}
+
+.project3{
+    display:inline-block;
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    left: 982px;
+    top: 36px;
+    overflow: hidden;
+ }
+ .project3 img{
+     width: auto;
+     height: 100%;
+     margin-left:-30%;
+     cursor: pointer;
+     transition: all 0.6s;
+ }
+ .project3 img:hover{
+     transform: scale(1.2);
+ }
+ .projectname3{
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    padding-top: 45px;
+    text-align:center;
+    width: 490px;
+    height: 250px;
+    padding-bottom: 15px;
+    overflow: hidden;/*下三条为了隐藏文字*/
+    cursor: pointer;
+    transition: all 0.6s;
+    background-image: linear-gradient(to top, rgb(163, 238, 228) , transparent);
+    font: 400 24px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.projectname3 p{
+    font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.project3 .projectname3:hover{
+    transform:translateY(-69px)
+}
+
+.project4{
+    display:inline-block;
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    left: 982px;
+    top: 548px;
+    overflow: hidden;
+ }
+ .project4 img{
+     width: auto;
+     height: 100%;
+     margin-left:-45%;
+     cursor: pointer;
+     transition: all 0.6s;
+ }
+ .project4 img:hover{
+     transform: scale(1.2);
+ }
+ .projectname4{
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    padding-top: 45px;
+    text-align:center;
+    width: 490px;
+    height: 250px;
+    padding-bottom: 15px;
+    overflow: hidden;/*下三条为了隐藏文字*/
+    cursor: pointer;
+    transition: all 0.6s;
+    background-image: linear-gradient(to top, rgb(101, 184, 173) , transparent);
+    font: 400 24px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.projectname4 p{
+    font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.project4 .projectname4:hover{
+    transform:translateY(-69px)
+}
