@@ -58,6 +58,9 @@ body{
     left: 369px;
     top: 0px;
     background-color: rgb(92, 197, 188);
+    background: linear-gradient(12deg, rgb(68, 179, 212) 0%, rgb(125, 226, 204)   100%);
+
+
 }
 .icon1{
     position: absolute;
@@ -117,3 +120,105 @@ body{
 .test-1 span{
     text-align:center;
 }
+
+.photo2{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 470px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo2 img{
+     width: auto;
+     height: 100%;
+ }
+ .photo3{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 465px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo3 img{
+     width: auto;
+     height: 100%;
+ }
+
+ .text-2{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-2 span{
+    text-align:center;
+}
+
+.photo4{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 470px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo4 img{
+     width: auto;
+     height: 100%;
+ }
+ .photo5{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 465px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo5 img{
+     width: 100%;
+     height: auto;
+ }
+
+ .text-3{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-3 span{
+    text-align:center;
+}
+.text-4{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-4 span{
+    text-align:center;
+}
+

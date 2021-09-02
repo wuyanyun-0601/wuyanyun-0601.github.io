@@ -20,7 +20,8 @@ body{
     height: 800px;
     left: 369px;
     top: 0px;
-    background-color: rgb(117, 133, 131);
+    background: linear-gradient(12deg, rgb(94, 131, 199) 0%,rgb(111, 199, 180)   100%);
+
 }
 .icon1{
     position: absolute;
