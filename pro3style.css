@@ -1,3 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    
+}
+.project-info{
+    background: linear-gradient(12deg, rgb(125, 226, 204) 0%, rgb(68, 179, 212) 100%);
+    position: fixed;
+    width: 369px;
+    height: 800px;
+    top: 0px;
+    left: 0px;
+}
+.projectphoto{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+    top: 50px;
+    left: 134px;
+}
+
+.projectphoto img{
+    width:auto;
+    height:100%;
+    margin-left: -20px;
+}
+.projectname{
+    position: relative;
+    text-align:center;
+    top: 100px;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 2;
+}
+.projectname p{
+    font-size: 16px;
+}
+.introduction{
+    position: relative;
+    text-indent:33px;
+    top: 100px;
+    padding: 25px;
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+
 .tools{
     position: fixed;
     width: 45px;
@@ -28,4 +81,39 @@
 .icon2 img{
      width: 27px;
      height: auto;
+}
+
+/*以下开始是右半部分*/
+
+.mainpart{
+    left: 470px;
+}
+.photo1{
+   display:inline-block;
+   position: relative;
+   width: 1010px;
+   height: 490px;
+   left: 470px;
+   top: 22px;
+   overflow: hidden;
+}
+.photo1 img{
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+}
+.text-1{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-1 span{
+    text-align:center;
 }
